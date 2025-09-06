@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="CurlParser">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/parser/parser.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="HTTPRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/parser/parser.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1757128856636" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/parser/parser.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1757128681831" />
+              <option name="schema">
+                <list>
+                  <option value="HTTPRequest" />
+                  <option value="CurlParser" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/parser/parser_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1757128856817" />
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="curl_parser" value="CurlParser" />
+        <entry key="http_request" value="HTTPRequest" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1757128756930" />
+  </component>
+</project>

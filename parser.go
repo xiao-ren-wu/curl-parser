@@ -41,9 +41,10 @@ func (cp *CurlParser) Parse() (*HTTPRequest, error) {
 	}
 
 	// 清理curl命令，移除多余的空白字符和换行符
-	cmd := strings.ReplaceAll(cp.curlCommand, "\\\n", " ")
-	cmd = strings.ReplaceAll(cmd, "\\", "")
-	cmd = strings.TrimSpace(cmd)
+	// cmd := strings.ReplaceAll(cp.curlCommand, "\\\n", " ")
+	// cmd = strings.ReplaceAll(cmd, "\\", "")
+	// cmd = strings.TrimSpace(cmd)
+	cmd := cp.curlCommand
 
 	// 移除开头的curl
 	if strings.HasPrefix(cmd, "curl ") {
